@@ -15,7 +15,6 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className="text-slate-600">
-        //<PageTitle/>
         <Languages/>
         <Header/>
         <Presentation/>
