@@ -14,7 +14,7 @@ import Layout from '../components/layout'
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="text-slate-600">
+      <div className="text-[#747171]">
         <Languages/>
         <Header/>
         <Presentation/>
