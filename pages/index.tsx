@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import CSSPageRuleTitle from '../components/title'
+import PageTitle from '../components/title'
 import Header from '../components/header'
 import Languages from '../components/languages'
 import Presentation from '../components/presentation'
