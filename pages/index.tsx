@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Title from '../components/title'
+import CSSPageRuleTitle from '../components/title'
 import Header from '../components/header'
 import Languages from '../components/languages'
 import Presentation from '../components/presentation'
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className="text-slate-600">
-        <Title/>
+        <PageTitle/>
         <Languages/>
         <Header/>
         <Presentation/>
