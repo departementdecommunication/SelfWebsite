@@ -14,13 +14,11 @@ import Layout from '../components/layout'
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="text-[#747171]">
         <Languages/>
         <Header/>
         <Presentation/>
         <Carrousel/>
         <Contact/>
-      </div>
     </Layout>
   )
 }
